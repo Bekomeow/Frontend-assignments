@@ -1,0 +1,27 @@
+html, body {
+    height: 100%; 
+    margin: 0; 
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.from-form {
+    border: 3px solid black;
+    border-left: 3px solid gray;
+    border-top: 3px solid gray;
+    padding: 2px;
+}
+
+table {
+    width: 450px;
+}
+
+td {
+    padding: 3px;
+}

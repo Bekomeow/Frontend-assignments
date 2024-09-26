@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="form-container">
+        <form action="" class="from-form">
+            <table>
+                <tr>
+                    <td colspan="2">
+                        <div style="background-color: #ffffb4; text-align: center; border: 2px solid;">
+                            <h1 style="color: red; font-size: xx-large;">Registration Form</h1>
+                        </div>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td style="width: 150px;">
+                        <div style="background-color: deepskyblue; text-align: left; border: 2px solid; padding: 5px;">
+                            <span style="margin-left: 10px;">Enter Name</span>
+                        </div>
+                    </td>
+                    <td>
+                        <div style="background-color: deepskyblue; text-align: left; border: 2px solid; padding: 4px;">
+                            <input type="text" name="name" style="width: 100; margin-left: 13px;">
+                        </div>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>
+                        <div style="background-color: deepskyblue; text-align: left; border: 2px solid; padding: 5.5px;">
+                            <span style="margin-left: 10px;">Enter Password</span>
+                        </div>
+                    </td>
+                    <td>
+                        <div style="background-color: deepskyblue; text-align: left; border: 2px solid; padding: 4px;">
+                            <input type="password" name="password" style="width: 100; margin-left: 13px;">
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div style="background-color: deepskyblue; display: flex; align-items: center; justify-content: left; border: 2px solid; padding: 4px; height: 71px;">
+                            <span style="margin-left: 10px;">Enter Address</span>
+                        </div>                    
+                    </td>
+                    <td>
+                        <div style="background-color: deepskyblue; text-align: left; border: 2px solid; padding: 4px;">
+                            <textarea name="address" rows="4" style="width: 70%; margin-left: 13px;"></textarea>
+                        </div>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>
+                        <div style="background-color: deepskyblue; display: flex; align-items: center; justify-content: left; border: 2px solid; padding: 4px; height: 92px;">
+                            <span style="margin-left: 10px;">Select Game</span>
+                        </div>      
+                    </td>
+    
+                    <td>
+                        <div style="background-color: deepskyblue; text-align: left; border: 2px solid;">
+                            <input type="checkbox" name="game" value="hockey" id="hockey" style="margin-left: 17px;"> 
+                            <label for="hockey">Hockey</label><br>
+                        
+                            <input type="checkbox" name="game" value="football" id="football" style="margin-left: 17px;">
+                            <label for="football">Football</label><br>
+                        
+                            <input type="checkbox" name="game" value="badminton" id="badminton" style="margin-left: 17px;">
+                            <label for="badminton">Badminton</label><br>
+                        
+                            <input type="checkbox" name="game" value="cricket" id="cricket" style="margin-left: 17px;">
+                            <label for="cricket">Cricket</label><br>
+                        
+                            <input type="checkbox" name="game" value="volleyball" id="volleyball" style="margin-left: 17px;">
+                            <label for="volleyball">Volleyball</label><br>
+                        </div>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>
+                        <div style="background-color: deepskyblue; text-align: left; border: 2px solid; padding: 6px;">
+                            <span style="margin-left: 10px;">Gender</span>
+                        </div>
+                    </td>
+    
+                    <td>
+                        <div style="background-color: deepskyblue; text-align: left; border: 2px solid; padding: 5px;">
+                                <input type="radio" name="gender" value="male" id="male" style="margin-left: 15px;"> 
+                                <label for="male">Male</label>
+            
+                                <input type="radio" name="gender" value="female" id="female"> 
+                                <label for="female">Female</label>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div style="background-color: deepskyblue; text-align: left; border: 2px solid; padding: 6px;">
+                            <span style="margin-left: 10px;">Select ur age</span>
+                        </div>
+                    </td>
+    
+                    <td>
+                        <div style="background-color: deepskyblue; text-align: left; border: 2px solid; padding: 4px;">
+                                <select name="age" style="width: 25%; height: 22px; margin-left: 10px;">
+                                    <option value="" disabled selected>Select</option>
+                                    <option value="10-20">10-20</option>
+                                    <option value="21-30">21-30</option>
+                                    <option value="31-40">31-40</option>
+                                </select>
+                        </div>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>
+                        <div style="background-color: deepskyblue; text-align: left; border: 2px solid; padding: 6px;">
+                            <span style="margin-left: 10px;">Select Photo</span>
+                        </div>
+                    </td>
+    
+                    <td>
+                        <div style="background-color: deepskyblue; border: 2px solid; padding: 4px;">
+                            <input type="file" name="photo" style="margin-left: 10px;">
+                        </div>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td colspan="2">
+                        <div style="background-color: deepskyblue; text-align: center; border: 2px solid; padding: 4px;">
+                            <button type="button" style="padding: 10px; width: 32%;">Click Me</button>
+                            <button type="reset" style="padding: 10px; width: 32%;">Сбросить</button>
+                            <button type="submit" style="padding: 10px; width: 32%;">Submit Form</button>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
